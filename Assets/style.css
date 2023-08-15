@@ -1,0 +1,429 @@
+/* Styling for the portfolio begins on line 4
+Styling for the password generator begins on line 264 */
+
+#top {
+  background-color: rgb(55, 55, 106);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  padding-bottom: 20px;
+}
+
+#disappear {
+  display: none;
+  display:block ;
+}
+
+#middle {
+  margin-top: 10px;
+  display: inline-flex;
+  background-color: rgb(48, 226, 232); 
+  padding-right: 10px;  
+}
+
+#name {
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: rgb(48, 226, 232); 
+  color: rgb(55, 55, 106);
+  font-size: 50px;
+  /* margin-right: 5%; */
+}
+
+#avatar {
+  vertical-align: middle;
+  height: 60px;
+  border-radius: 40%;
+}
+
+#nav1 {
+  padding-top: 25px;
+  background-color: rgb(55, 55, 106);
+  padding-right: 2%;
+  align-items: center;
+  /* align-content: center; */
+  }
+
+  .a1{
+    color: rgb(48, 226, 232); 
+    padding: 10px;  
+    font-size: 25px;
+    align-items: center
+  }
+
+
+  #logo {
+  display: flex;
+  align-items: flex-end;
+  height: 250px;
+  width: auto;
+  justify-content: flex-end;
+  background-image: url(./Assets/Picket.png);
+  }
+
+  #Coollogo {
+  margin-right: 150px;
+  background-color: rgb(48, 226, 232); 
+  color: rgb(55, 55, 106);
+  font-size: 30px;
+  padding: 10px;  
+  margin-bottom: 20px;
+}
+  
+#aboutme {
+  color: darkcyan;
+  display: inline-flex;
+  justify-content: start;
+  padding-top: 40px;
+  padding-right: 20px;
+}
+
+#work {
+  color: darkcyan;
+  display: inline-flex;
+  justify-content: start;
+  padding-top: 40px;
+  padding-right: 21px;
+}
+
+#contactme {
+  color: darkcyan;
+  display: inline-flex;
+  justify-content: start;
+  padding-top: 40px;
+  padding-right: 21px;
+  width: 100%;
+}
+
+.sidebar{
+  /* font-size: 10px; */
+  font-size: 60px;
+  text-align: right;
+  margin-left: 53px;
+  /* margin-left: 5px; */
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#sidebar1{
+  /* font-size: 10px; */
+  font-size: 60px;
+  text-align: right;
+  margin-left: 65px;
+  /* margin-left: 5px; */
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#sidebar2{
+  /* font-size: 10px; */
+  font-size: 50px;
+  text-align: right;
+  margin-left: 30px;
+  /* margin-left: 5px; */
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+.borderline{
+  border-right-style: solid;
+  border-color: blue;
+}
+
+.describe {
+  font-size: x-large;
+  margin-left: 20px;
+  margin-right: 5%;
+  }
+
+  #worktitles1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 20px;
+  } 
+  .worktitles {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-right: 20px;
+  } 
+
+
+  .wt1{
+    border-style: solid;
+    border-color: aqua;
+    font-size: x-large;
+    margin-left: 20px;
+    width: 95%
+  }
+  .wt2{
+    border-style: solid;
+    border-color: aqua;
+    font-size: x-large;
+    margin-left: 20px;
+    margin-right: 2px;
+    margin-top: 2%;
+    width: 47%;
+    
+  }
+
+#image {
+  width: 95%;
+}
+
+   .Coding{
+      background-color: rgb(48, 226, 232);
+      width: 180px;
+      margin-bottom: 80px;
+      margin-left: 10px;
+      border: none;
+    }
+
+  #text1 {
+      font-size: large;
+      text-align: left;
+      color: darkcyan;
+      
+    }
+
+ #text {
+  font-size: small;
+  text-align: left;
+  color: darkcyan;
+ }
+
+#hello{ 
+  
+  margin-left: 3%;
+  margin-right: 25%;
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reffy {
+  color: darkcyan;
+  font-size: x-large;
+}
+
+.wt1:hover, .wt2:hover {
+  border-color: yellow;
+}
+
+.Coding:hover {
+ background-color: lightpink;
+}
+
+
+ @media screen and (max-width: 1260px) {
+  .wt2 {
+    width: 97%;}
+}
+
+@media screen and (max-width: 512px) {
+  .sidebar  {
+    margin-left: 5px;
+    font-size: 10px;}
+  }
+
+  @media screen and (max-width: 512px) {
+     #sidebar1  {
+      margin-left: 5px;
+      font-size: 10px;}
+    }
+
+    @media screen and (max-width: 512px) {
+      #sidebar2 {
+        margin-left: 5px;
+        font-size: 10px;}
+      }
+
+      @media screen and (max-width: 512px) {
+         .describe {
+          font-size: small;}
+         }
+
+         @media screen and (max-width: 512px) {
+          .reffy {
+           font-size: small;}
+          } 
+
+          @media screen and (max-width: 360px) {
+            #name {
+             font-size: small;}
+            } 
+
+            @media screen and (max-width: 360px) {
+              #Coollogo {
+               font-size: small;}
+              } 
+
+            /* css styling for password generator */
+
+            *,
+            *::before,
+            *::after {
+              box-sizing: border-box;
+            }
+            
+            /* html,
+            body, */
+            .wrapper {
+              height: 100%;
+              margin: 0;
+              padding: 0;
+            }
+            
+            #reappear {
+              font-family: sans-serif;
+              background-color: #f9fbfd;
+              display: none;
+            }
+            
+            .wrapper {
+              padding-top: 30px;
+              padding-left: 20px;
+              padding-right: 20px;
+            }
+            
+            header {
+              text-align: center;
+              padding: 20px;
+              padding-top: 0px;
+              color: hsl(206, 17%, 28%);
+            }
+            
+            .card {
+              background-color: hsl(0, 0%, 100%);
+              border-radius: 5px;
+              border-width: 1px;
+              box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+              color: hsl(206, 17%, 28%);
+              font-size: 18px;
+              margin: 0 auto;
+              max-width: 800px;
+              padding: 30px 40px;
+            }
+            
+            .card-header::after {
+              content: " ";
+              display: block;
+              width: 100%;
+              background: #e7e9eb;
+              height: 2px;
+            }
+            
+            .card-body {
+              min-height: 100px;
+            }
+            
+            .card-footer {
+              text-align: center;
+            }
+            
+            .card-footer::before {
+              content: " ";
+              display: block;
+              width: 100%;
+              background: #e7e9eb;
+              height: 2px;
+            }
+            
+            .card-footer::after {
+              content: " ";
+              display: block;
+              clear: both;
+            }
+            
+            .btn {
+              border: none;
+              background-color: hsl(360, 91%, 36%);
+              border-radius: 25px;
+              box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
+                0px;
+              color: hsl(0, 0%, 100%);
+              display: inline-block;
+              font-size: 22px;
+              line-height: 22px;
+              margin: 16px 16px 16px 20px;
+              padding: 14px 34px;
+              text-align: center;
+              cursor: pointer;
+            }
+            
+            button[disabled] {
+              cursor: default;
+              background: #c0c7cf;
+            }
+            
+            .float-right {
+              float: right;
+            }
+            
+            #password {
+              -webkit-appearance: none;
+              -moz-appearance: none;
+              appearance: none;
+              border: none;
+              display: block;
+              width: 100%;
+              padding-top: 15px;
+              padding-left: 15px;
+              padding-right: 15px;
+              padding-bottom: 85px;
+              font-size: 1.2rem;
+              text-align: center;
+              margin-top: 10px;
+              margin-bottom: 10px;
+              border: 2px dashed #c0c7cf;
+              border-radius: 6px;
+              resize: none;
+              overflow: hidden;
+            }
+            
+#returnBTN {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 5%;
+}
+
+#returnButton {
+  width: 10%;
+  background-color: red;
+  font-size: large;
+  color: aliceblue;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+
+
+            /* Media Querry to adjust Screen Size!! */
+            
+            @media (max-width: 690px) {
+              .btn {
+                font-size: 1rem;
+                margin: 16px 0px 0px 0px;
+                padding: 10px 15px;
+              }
+            
+              #password {
+                font-size: 1rem;
+              }
+            }
+            
+            @media (max-width: 500px) {
+              .btn {
+                font-size: 0.8rem;
+              }
+            }
+
+            @media (max-width: 875px) {
+              #returnButton {
+                width: 90%;
+              }
+            }
