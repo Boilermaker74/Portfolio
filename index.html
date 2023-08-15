@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/style.css">
+    <script type="text/javascript" src="Assets/script.js"></script>
+    
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <!-- use this to make the portfolio program disappear -->
+
+    <div id ="disappear">
+    
+    <Header id="top">
+        <div id="middle">
+        <div id="name">Walter Moleterno</div>
+        <img id = "avatar" src="Assets/avatar.png" alt="Avatar" />
+        <script type="text/javascript" src="script.js"></script>
+        </div>
+    
+        <nav id="nav1">
+            <a href="#aboutme" class="a1">About Me </a>
+            <a href="#work"     class="a1" >   Work </a>
+            <a href="#contactme"class="a1">  Contact Information </a>
+            <a href="#contactme" class="a1"> Resume </a>   
+        </nav>
+        
+    </Header>
+       
+    <div id="logo">
+        <img src="Picket.png" alt="">
+        <div  id="Coollogo">Making Code Since 2023!</div>
+    </div>
+   
+
+<div id ="aboutme">
+    <div class="sidebar">About Me</div>
+    <div class="borderline"></div>
+    <div class="describe">
+        <div>Lorem ipsum dolor sit amet. Sed ipsa velit est unde repellat eos necessitatibus perspiciatis. Eum laborum repudiandae quo dolores unde et voluptate illum ut possimus dolor ea voluptas nisi aut temporibus commodi. 
+        </div>
+        <br>
+        <div> Ut debitis blanditiis id architecto iusto hic earum aliquam ut dolores praesentium. Id culpa ratione et autem quia eum voluptate quia vel repellendus voluptatem aut error provident eum dolorum esse.
+        Hic sint obcaecati cum sequi quasi sit libero galisum est earum ratione aut saepe dolores. Aut animi fugit et harum voluptates nam ratione corrupti qui ipsum cupiditate vel expedita neque aut doloribus quidem.
+        </div>
+</div>
+</div>
+
+<!-- Sidebars for different sections of the Portfolio -->
+
+
+<div id ="work">
+<div id ="sidebar1">Work</div>
+<div class="borderline"></div>
+
+
+<!-- container 1 -->
+
+    <div id ="worktitles1">
+        <div class ="wt1">
+            <img src="Assets/Password Generator.png" id="image"  alt="Password Generator" >
+                <button class ="Coding" onclick="program2()">
+                    <div id="text1">Password Generator</div>
+                    <div id="text">HTML, CSS, JavaScript</div>
+                </button>
+        </div>   
+
+
+<!-- container 2 -->  
+
+<div class ="worktitles">
+
+        <div class="wt2">
+            <img src="Assets/Coding Quiz.png " id="image"  alt="Coding Quiz" >
+                
+                <button class ="Coding" button onclick="myFunction()">
+                    <div id="text1">Coding Quiz</div>
+                    <div id="text">HTML, CSS, JavaScript</div>
+                </button>            
+        </div>
+
+        <div class="wt2">
+            <img src="Assets/Traveler's Assistant.png" id="image"  alt="Traveler's Assistant" >
+                <div class ="Coding">
+                    <div id="text1">Traveler's Assistant</div>
+                    <div id="text">HTML, CSS, JavaScript, API</div>
+                </div>            
+        </div>
+
+ <!-- container 3 -->  
+
+    <div class="wt2">
+        <img src="Assets/Project 5.png" id="image"  alt="Project Five" >
+            
+            <div class ="Coding">
+                <div id="text1">Project 5</div>
+                <div id="text">HTML, CSS, ????</div>
+            </div>            
+    </div>
+
+    <div class="wt2">
+        <img src="Assets/Project 6.png" id="image"  alt="Project Six" >
+            
+            <div class ="Coding">
+                <div id="text1">Project 6</div>
+                <div id="text">HTML, CSS, JavaScript ???</div>
+            </div>            
+    </div>
+</div>
+</div>
+</div>
+<div id ="contactme">
+    <div id ="sidebar2">Contact Me</div>
+    <div class="borderline"></div>
+    <p id ="hello">
+            <a class = "reffy" href="https://voice.google.com/"> 312 555 1234</a>
+            <a class = "reffy" href="https://mail.yahoo.com">Wally123@Yahoo.com </a>
+            <a class = "reffy" href="https://github.com/">Github</a>
+            <a class = "reffy" href="https://twitter.com/">Twitter</a>       
+    </p>
+    </div>
+</div>
+    
+</body>
+
+
+<div id ="reappear">
+
+   
+        <div class="wrapper">
+          <header>
+            <h1>Password Generator</h1>
+          </header>
+          <div class="card">
+            <div class="card-header">
+              <h2>Generate a Password</h2>
+            </div>
+            <div class="card-body">
+              <textarea
+                readonly
+                id="password"
+                placeholder="Your Secure Password"
+                aria-label="Generated Password"
+              ></textarea>
+            </div>
+            <div class="card-footer">
+              <!-- This is the button -->
+              <button id="generate" class="btn confirm" onclick="pwlength()">Generate Password</button>
+              <!-- Hold for button -->
+          
+            </div>
+          </div>
+        </div>
+        
+        <div id="returnBTN"> 
+            <button id="returnButton" onclick="program3()">Return to Portfolio</button>
+        </div>
+      </div>  
+
+
+
+    </div>
+
+</body>
+</html>
