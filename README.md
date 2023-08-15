@@ -24,4 +24,6 @@ In my opinion, the best way to learn coding is to code.  As I started the progra
 
 I learned that certain attributes have more features that I realized.  For example, the anchor element with its Href, I learned, can not only point to web addresses but also to elements in the application being worked on. So I could put an anchor element at the top of the document which moves the user And it's to an area on the bottom of the document.
 
-So with the completion of this project, I am hopefully becoming more fluent in coding.
+This code was authored entirely by me, so I do not need to cite any collaborators.
+
+So with the completion of this project, I am hopefully becoming more fluent in coding. 
