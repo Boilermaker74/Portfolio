@@ -10,9 +10,10 @@ As they say a picture is worth 1000 words and this portfolio will provide the pi
 Installation is not required as the application is implied fully employed on the internet. One has only to click on the URL  https://boilermaker74.github.io/  to deploy the application. 
 
 The user is presented with tiles that describe applications. 
-![alt text](Assets/Images/PWapp.png)
-By clicking on these tiles, the portfolio disappears and is replaced by the application itself.
+
 ![alt text](Assets/Images/workinfo.png)
+By clicking on these tiles, the portfolio disappears and is replaced by the application itself.
+![alt text](Assets/Images/PWapp.png)
 
 To date only the first application, the password generator, is operational. Hopefully more applications will be added in the coming weeks. 
 
