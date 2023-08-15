@@ -18,7 +18,7 @@ To date only the first application, the password generator, is operational. Hope
 
 Anchor elements at the top right of the document will, when clicked on, bring the user to their corrosponding sections of the portfolio.
 ![alt text](Assets/Images/Header.png)
-![alt text](Assets/Images/ending information.png)
+![alt text](Assets/Images/endinginformation.png)
 In my opinion, the best way to learn coding is to code.  As I started the program, problems arose that I hadn’t even envisioned. 
 
 I learned that certain attributes have more features that I realized.  For example, the anchor element with its Href, I learned, can not only point to web addresses but also to elements in the application being worked on. So I could put an anchor element at the top of the document which moves the user And it's to an area on the bottom of the document.
