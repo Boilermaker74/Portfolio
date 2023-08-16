@@ -7,7 +7,7 @@ The portfolio will act as a showcase for the projects I completed during the boo
 
 As they say a picture is worth 1000 words and this portfolio will provide the pictures to fully communicate my newly acquired skills to potential employers. Hopefully as this portfolio matures, my skills will meet the requirements for employment. The problem it solves is to provide the method to effectively communicate my skills to multiple employees. It also provides contact information to employers should they decide to follow up in the future.
 
-Installation is not required as the application is implied fully employed on the internet. One has only to click on the URL  https://boilermaker74.github.io/  to deploy the application. 
+Installation is not required as the application is fully employed on the internet. One has only to click on the URL  https://boilermaker74.github.io/  to deploy the application. 
 
 The user is presented with tiles that describe applications. 
 
